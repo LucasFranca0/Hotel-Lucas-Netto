@@ -1,7 +1,9 @@
 # Hotel-Lucas-Netto
 
-## Requisitos de alteração do Programa
+### Objetivo: desenvolver uma plataforma para funcionários do hotel usarem, não os hóspedes. 
 
+** **
+### Requisitos:
 1. Ao acessar o sistema, pergunte o nome do Hotel e diga "O nome do hotel é {Hotel}".
 2. Ao acessar o sistema, pergunte o nome do usuário e uma senha. O nome do usuário não precisa de validação. A senha deve ser 2678.  
 3. Na função "inicio", utilize escolha/caso (switch/case) para validar a opção escolhida pelo do usuário.
@@ -13,8 +15,8 @@
 9. Atualize o menu de opções e a função inicio com todas as opções de programas abaixo. 
 10. Atualize a função "erro" com as novas opções do menu.
 11. Ao encerrar qualquer programa abaixo, sempre retorne ao menu inicial.
-
-## Requisitos Funcionalidades a serem adicionadas no Programa.
+** **
+## Funcionalidades a serem adicionadas no Programa.
 
 ### 1) Quantos quartos são?
 Todo hotel precisava reservar quartos. 
@@ -56,7 +58,7 @@ Resposta do usuário =>  Carlos Moreira
 Programa pergunta   =>  "{Nome}, você confirma a hospedagem para Carlos Moreira por 10 dias? S/N"
 Resposta do usuário =>  N
 Programa exibe         =>   "{Nome}, reserva não efetuada"
-
+** **
 ### 2) Como soletra?
 
 Aqui vamos tratar do cadastro de hóspedes. 
@@ -103,7 +105,7 @@ Programa exibe	      => "Wesley Albuquerque cadastrada(o) com sucesso. Wesley pa
 Programa pergunta   => "Qual o nome do Hóspede?"
 Resposta do usuário => PARE
 Programa exibe          => "{Nome}, o valor total das hospedagens é: R$250; 1 gratuidade(s); 1 meia(s)"
-
+** **
 ### 3) Com "S" ou com "Z"?
 Aqui vamos tratar do cadastro de hóspedes, mas de uma forma diferente. 
 Como no programa anterior, imagine que uma família acaba de chegar ao balcão do hotel e quer se hospedar. 
@@ -141,7 +143,7 @@ Programa pergunta   => "Qual o nome do Hóspede?"
 Resposta do usuário =>  Eleanor Fernandes
 Programa exibe         => "Hóspede Eleanor Fernandes não foi encontrada(o)!"
 Programa pergunta  => "Selecione uma opção: 1. Cadastrar - 2. Pesquisar - 3. Sair"
-
+** **
 ### 4) Festa ou trabalho?
 Neste cenário, o hotel receberá não hóspedes, mas eventos. 
 Quando uma empresa contrata o hotel para eventos, são oferecidos garçons para servir os convidados. Considerando que cada garçom custa R$ 10,50 por hora, escreva um programa que receba o número de garçons necessários e o total de horas do evento. 
@@ -159,7 +161,7 @@ Programa exibe         =>  "Custo total: R$ 336.0"
 Programa pergunta   =>  "Gostaria de efetuar a reserva? S/N"
 Resposta do usuário =>  S
 Programa exibe          =>  "{Nome}, reserva efetuada com sucesso."
-
+** **
 ### 5) Hora de comer
 Neste cenário vamos tratar do Buffet do hotel.
 O hotel oferece café, água e salgados para cada um dos convidados de um evento alocado em seus salões. A quantidade de café, em litros, é calculada como 0,2 litro para cada convidado; a quantidade de água é calculada como 0,5 litro para cada convidado; são oferecidos 7 salgados por pessoa. 
@@ -182,7 +184,7 @@ Programa exibe          =>  "O evento precisará de 20 litros de café, 50 litro
 Programa pergunta   =>  "Gostaria de efetuar a reserva? S/N"
 Resposta do usuário =>  S
 Programa exibe          =>  "{Nome}, reserva efetuada com sucesso."
-
+** **
 ### 6) Auditório para quantos?
 O hotel necessita de uma funcionalidade que indique qual de seus dois auditórios é o mais adequado para um evento.
 
@@ -213,7 +215,7 @@ Programa exibe         =>  "Use o auditório Colorado"
 Programa pergunta   =>  "Gostaria de efetuar a reserva? S/N"
 Resposta do usuário =>  S
 Programa exibe          =>  "{Nome}, reserva efetuada com sucesso."
-
+** **
 ### 7) Que horas você pode?
 Ainda em relação aos eventos, o hotel oferece reserva de seu restaurante caso o contratante necessite. O restaurante está disponível para reservas de segunda a sexta das 7hs às 23hs; sábados e domingos apenas das 7hs às 15hs. 
 
@@ -238,7 +240,7 @@ Resposta do usuário =>  13
 Programa pergunta   =>  "Qual o nome da empresa?"
 Resposta do usuário =>  Lojas Transilvânia
 Programa exibe          =>  "Restaurante reservado para Lojas Transilvânia. Segunda às 13hs."
-
+** **
 ### 8) Álcool ou gasolina?
 O hotel tem um carro para levar seus hóspedes a passeios. O carro é sempre abastecido pelo hotel que tem convênios com dois postos de Gasolina: o Wayne Oil e o Stark Petrol. Os carros podem ser abastecidos tanto com álcool quanto gasolina, mas os preços têm flutuado bastante, então é necessário que que um funcionário cheque qual o posto mais em conta para abastecimento. 
 
@@ -256,7 +258,7 @@ Resposta do usuário =>  4.35
 Programa pergunta   =>  "Qual o valor da gasolina no posto Stark Petrol?"
 Resposta do usuário =>  6.17
 Programa exibe   	      =>  "{Nome}, é mais barato abastecer com gasolina no posto Wayne Oil".
-
+** **
 ### 9) Ar puro, finalmente.
 A manutenção dos ares condicionados no hotel é realizada por empresas terceirizadas que, em alguns casos, oferecem desconto quando o serviço é realizado em uma quantidade determinada de aparelhos. 
 
@@ -301,3 +303,4 @@ Programa exibe          =>  "O serviço de Empresa 2 custará R$1480.0"
 Programa pergunta   =>  "Deseja informar novos dados, {Nome}? (S/N)"
 Resposta do usuário =>  N
 Programa exibe          =>  "O orçamento de menor valor é o [Empresa 1 por R$ 1200.0]"
+** **
