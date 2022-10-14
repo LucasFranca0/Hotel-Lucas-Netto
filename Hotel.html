@@ -64,7 +64,7 @@
 			}
 		}
 
-		function reserva_quartos() {
+		function reserva_quartos() {		// Reservar quarto para hospedes. Máximo de 30 diarias 
 			window.alert(`HOTEL ${nameHotel} - RESERVA DE QUARTOS`);
 
 			var valorDiaria = parseFloat(prompt("Qual o valor padrão da diária: "));
@@ -104,7 +104,7 @@
 			}
 		}
 
-		function cadastro_hospedes() {
+		function cadastro_hospedes() {		// Cadastrar hospedes e se a idade for menor que 6 possui gratuidade. Maior que 60 meia entrada. 
 
 			window.alert(`HOTEL ${nameHotel} - CADASTRO DE HÓSPEDES`);
 			var meiaHosp = 0;
@@ -150,7 +150,7 @@
 			}
 		}
 
-		function inicio_hospedes() {
+		function inicio_hospedes() {		// menu com opções para inserir um hospede e guardar o dado em um array e depois buscar a informação com o mesmo  nome inserido.
 			var escolha_hospedes = parseInt(prompt('Cadastro de Hóspedes\n\n Selecione uma opção: \n1. Cadastrar \n2. Pesquisar \n3. Sair'));
 
 			switch (escolha_hospedes) {
@@ -197,7 +197,7 @@
 			inicio_hospedes()
 		}
 
-		function eventos_hotel() {
+		function eventos_hotel() {		// Orçamento de evento baseado na quantidade de horas evento e valor do serviço dos garçons
 
 			var horas_eventos = parseInt(prompt("Qual a duração do evento em horas?"));
 			var custo_garcom = parseInt(prompt("Quantos garçons serão necessários?"));
@@ -221,7 +221,7 @@
 
 		}
 
-		function buffet_hotel() {
+		function buffet_hotel() {		// Sistema de buffet que calcula a quantidade de comida e também o valor total 
 
 
 			var convidados_evento = parseInt(prompt("Qual o número de convidados para o evento?"));
@@ -244,7 +244,7 @@
 			}
 		}
 
-		function restaurante_hotel() {
+		function restaurante_hotel() {	 // Agendamento do restaurante do hotel. Horário de funcionamento: Seg à Sexta das 07 às 23h. Sabado e Domingo 7 às 15h.
 
 			var dia_Semana = prompt("Qual o dia do seu evento? Domingo, Segunda, Terca, Quarta, Quinta, Sexta, Sabado.");
 
@@ -389,7 +389,7 @@
 
 		}
 
-		function reservar_hotel() {
+		function reservar_hotel() {		// Função para confirmar reserva. 
 
 			var reserva_eventos = prompt("Gostaria de efetuar a reserva? S/N");
 
@@ -408,7 +408,7 @@
 
 		}
 
-		function auditorio_hotel() {
+		function auditorio_hotel() {	// Sistema para calcular a melhor opção de auditorio de acordo com a quantidade de convidados.
 
 			var convidados_evento = parseInt(prompt(`${nameUser}, confirme o número de convidados para reservar um salão adequado: `));
 
@@ -426,7 +426,7 @@
 			}
 		}
 
-		function abastecer_carros() {
+		function abastecer_carros() {	// Sistema para calcular a melhor opção de combústivel entre dois postos de gasolina.
 			alert(`HOTEL ${nameHotel} - ABASTECER`);
 
 			var alcool_Wayne = parseFloat(prompt("Qual o valor do álcool no posto Wayne Oil?"));
@@ -500,7 +500,7 @@
 
 		}
 
-		function erro() {
+		function erro() {	
 			alert('Por favor, informe um número entre 1 e 9');
 			inicio();
 		}
